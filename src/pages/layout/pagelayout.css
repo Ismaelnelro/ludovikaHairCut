@@ -1,0 +1,28 @@
+.section-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    padding: 3rem 1rem;
+    font-weight: 300;
+}
+
+.title-details {
+    font-weight: 400;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.subtitle-details {
+    font-size: 1.2rem;
+    text-align: center;
+    width: 100%;
+}
+
+
+@media(width< 481px) {
+    .section-details {
+        padding: 1rem;
+    }
+}

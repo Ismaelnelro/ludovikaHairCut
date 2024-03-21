@@ -1,0 +1,113 @@
+.section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    padding: 3rem 0rem;
+    text-align: center;
+}
+
+
+.hero {
+    background-image: url('../../assets/hero_haircut_woman_author_Toa_Heftiba_com.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content {
+    text-align: center;
+    color: white;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.hero-content h1 {
+    width: 100%;
+    font-size: clamp(2rem, 5vw, 2.5rem);
+    text-transform: uppercase;
+    color: white;
+    transition: transform 0.3s ease;
+}
+
+.hero-content h1:hover {
+    transform: scale(1.1) rotate(5deg)
+}
+
+
+.hero-content p {
+    font-size: clamp(.8rem, 4vw, 1.25rem);
+    color: black;
+}
+
+.btn-reserva {
+    background-color: #1CCAC7;
+    color: white;
+    padding: 1rem 4rem;
+    border: none;
+    border-radius: .2rem;
+    font-size: 1.25rem;
+    font-weight: 800;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-reserva:hover {
+    background-color: #0EACAA;
+    transform: translateY(-3px);
+}
+
+.services h2 {
+    font-size: 2rem;
+    margin-block: 3rem;
+    color: #333333;
+}
+
+.services p {
+    width: 90%;
+    margin: 0 auto;
+    font-weight: 300;
+}
+
+
+.section-cards {
+    width: 100%;
+    padding: 3rem 0rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+
+@media (width <=768px) {
+
+    .hero-content {
+        gap: 1rem;
+        justify-content: flex-end;
+    }
+
+    .hero-content h1,
+    .hero-content p {
+        width: 90%;
+        text-align: center;
+    }
+
+
+    .btn-reserva {
+        padding: 1rem 2rem;
+        font-size: 1rem;
+    }
+
+}

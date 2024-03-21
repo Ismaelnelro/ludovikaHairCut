@@ -1,0 +1,115 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: white;
+  padding-inline: .1rem;
+  padding-bottom: .1rem;
+  z-index: 9999;
+  transition: all ease-in-out .3s;
+}
+
+.logo img {
+  min-width: 110px;
+  width: 110px;
+  /* aspect-ratio: 70/23; */
+  object-fit: cover;
+}
+
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .7rem;
+  margin-right: auto;
+}
+
+
+nav a {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: 400;
+  line-height: 3.7rem;
+  color: rgb(124, 117, 112);
+  text-decoration: none;
+}
+
+nav a {
+  font-size: clamp(0.6rem, 2vw, 0.9rem);
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  font-size: clamp(0.7rem, 2vw, 0.9rem);
+}
+
+
+.contacto,
+.btn-reservar {
+  text-decoration: none;
+  color: #96877D;
+}
+
+.btn-reservar {
+  background-color: #1CCAC7;
+  color: white;
+  border: none;
+  line-height: 3.7rem;
+  padding-inline: 1.5rem;
+}
+
+
+
+
+
+@media (width <=768px) {
+
+  nav {
+    order: 3;
+    width: 100%;
+    background-color: #F3F2F1;
+  }
+
+  nav a,
+  .btn-reservar {
+    line-height: 3.2rem;
+  }
+
+
+  .btn-reservar {
+    padding-inline: 1rem;
+  }
+
+
+}
+
+
+@media (width <=340px) {
+
+  nav ul {
+    justify-content: flex-start;
+    overflow-x: scroll;
+    padding-inline: 1rem;
+  }
+
+  nav a,
+  .btn-reservar {
+    line-height: 3rem;
+  }
+
+
+  .btn-reservar {
+    padding-inline: .6rem;
+  }
+
+}

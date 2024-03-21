@@ -1,0 +1,54 @@
+.container-reservas {
+    position: fixed;
+    right: 1rem;
+    top: -100%;
+    z-index: 99999;
+    background-color: whitesmoke;
+    border-radius: 1.6rem;
+    border-top-right-radius: .5rem;
+    padding: 1.2rem;
+    transition: all ease-in-out 1s;
+    box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.5);
+    opacity: 0;
+}
+
+.container-reservas-active {
+    top: 4rem;
+    opacity: 1;
+}
+
+.reservas-exit {
+    text-align: end;
+ 
+    color: #1CCC;
+    cursor: pointer;
+}
+
+.reservas-address {
+    padding-block: .5rem;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.reservas-address p {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.reservas-address p span{
+    font-size: 1rem;
+}
+
+.reservas-horarios {
+    border-top: 1px solid #1CCC;
+    padding: .7rem;
+    font-weight: 300;
+    display: flex;
+    gap: .4rem;
+    flex-direction: column;
+}
+
+.reservas-horarios thead {
+    font-weight: 900;
+}
