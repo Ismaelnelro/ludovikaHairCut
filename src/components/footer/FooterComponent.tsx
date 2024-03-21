@@ -6,7 +6,7 @@ const FooterComponent = () => {
   return (
     <footer className='footer-container'>
       <section className='footer-subscription'>
-        <p>Si quieres recibir las últimas tendencias en moda y belleza, promociones y estar al día de los eventos más cool de nuestra peluquería en Barcelona, ¡suscríbete!</p>
+        <p>Si quieres recibir las últimas tendencias en moda y belleza, promociones y estar al día de los eventos más cool de nuestra peluquería en Buenos Aires, ¡suscríbete!</p>
         <div className='input-group'>
           <input className='input-subscription' placeholder='Nombre' type="text" />
           <input className='input-subscription' placeholder='Email' type="email" />

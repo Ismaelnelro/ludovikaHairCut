@@ -24,7 +24,7 @@ const HeaderComponent = () => {
         <header className="navbar">
             <div className="logo">
                 <Link to={"/"}>
-                    <img src={logo} alt="Hair Cut" />
+                    <img src={logo} alt="Ludovicka" />
                 </Link>
             </div>
             <nav>
