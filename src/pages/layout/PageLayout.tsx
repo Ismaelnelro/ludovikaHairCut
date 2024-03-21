@@ -1,7 +1,9 @@
 import React from 'react'
+
+/*Componentes*/
 import { service } from '../../components/hero/HeroSectionComponents';
 
-
+/*Styles*/ 
 import './pagelayout.css'
 
 const PageLayout = ({ service, children }: { service: service; children: React.ReactNode }) => {

@@ -1,15 +1,19 @@
+import { Link } from 'react-router-dom'
+
+/*Components*/
 import HeroSectionComponents from '../components/hero/HeroSectionComponents'
 import PageLayout from './layout/PageLayout'
 
+/*Imagenes*/ 
+import alisado from '/assets/imagen_links_pages/peluqueria/alisado.png'
+import brashing from '/assets/imagen_links_pages/peluqueria/brushing.jpg'
+import color from '/assets/imagen_links_pages/peluqueria/color.jpg'
+import corte from '/assets/imagen_links_pages/peluqueria/corte.jpg'
+import mechas from '/assets/imagen_links_pages/peluqueria/mechas.jpg'
 
-import alisado from '../assets/imagen_links_pages/peluqueria/alisado.png'
-import brashing from '../assets/imagen_links_pages/peluqueria/brushing.jpg'
-import color from '../assets/imagen_links_pages/peluqueria/color.jpg'
-import corte from '../assets/imagen_links_pages/peluqueria/corte.jpg'
-import mechas from '../assets/imagen_links_pages/peluqueria/mechas.jpg'
-
+/*Styles*/
 import './styles/grid.css'
-import { Link } from 'react-router-dom'
+
 const PeluqueriaPage = () => {
     return (
 

@@ -1,6 +1,9 @@
+/*Components*/
 import HeaderComponent from "../components/header/HeaderComponent"
-
+/*Styles*/
 import './styles/contacto.css'
+
+
 const ContantPage = () => {
   return (
     <>

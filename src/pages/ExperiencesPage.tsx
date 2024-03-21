@@ -1,13 +1,18 @@
+import { Link } from "react-router-dom"
+
+/*Components*/
 import HeroSectionComponents from "../components/hero/HeroSectionComponents"
 import PageLayout from "./layout/PageLayout"
 
+/*Imagenes*/
+import nuevoestilo from '/assets/imagen_links_pages/experiencia/nuevoestilo.jpg'
+import makeup from '/assets/imagen_links_pages/experiencia/makeup.jpg'
+import asesoramientoimagen from '/assets/imagen_links_pages/experiencia/asesoramientoimagen.jpg'
 
-import nuevoestilo from '../assets/imagen_links_pages/experiencia/nuevoestilo.jpg'
-import makeup from '../assets/imagen_links_pages/experiencia/makeup.jpg'
-import asesoramientoimagen from '../assets/imagen_links_pages/experiencia/asesoramientoimagen.jpg'
-
+/*Styles*/
 import './styles/grid.css'
-import { Link } from "react-router-dom"
+
+
 const ExperiencesPage = () => {
     return (
         <>

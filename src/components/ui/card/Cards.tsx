@@ -1,11 +1,12 @@
 
+/*Styles*/
+import './card.css'
+
 interface Tarjeta {
     titulo: string;
     contenido: string;
     logo: string;
 }
-
-import './card.css'
 
 const Cards = ({ tarjetas }: { tarjetas: Tarjeta[] }) => {
     return (

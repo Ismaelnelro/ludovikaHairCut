@@ -1,12 +1,19 @@
+import { Link } from 'react-router-dom'
+
+/*Componentes*/
 import HeroSectionComponents from '../components/hero/HeroSectionComponents'
 import PageLayout from './layout/PageLayout'
 
-import manicuras from '../assets/imagen_links_pages/estetica/manicuras.jpg'
-import maquillaje from '../assets/imagen_links_pages/estetica/maquillaje.jpg'
-import tratamietnofacial from '../assets/imagen_links_pages/estetica/tratamietnofacial.jpg'
+/*Imagenes*/
+import manicuras from '/assets/imagen_links_pages/estetica/manicuras.jpg'
+import maquillaje from '/assets/imagen_links_pages/estetica/maquillaje.jpg'
+import tratamietnofacial from '/assets/imagen_links_pages/estetica/tratamietnofacial.jpg'
 
+
+/*Styles*/
 import './styles/grid.css'
-import { Link } from 'react-router-dom'
+
+
 const EsteticaPage = () => {
   return (
     <>

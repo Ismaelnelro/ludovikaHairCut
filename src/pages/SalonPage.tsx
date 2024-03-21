@@ -1,13 +1,18 @@
+import { Link } from 'react-router-dom'
+
+
+/*Compoentes*/
 import HeroSectionComponents from '../components/hero/HeroSectionComponents'
 import PageLayout from './layout/PageLayout'
 
 
+/*Imagenes*/
+import brasil from '/assets/imagen_links_pages/salon/brasil.jpg'
+import buenosaires from '/assets/imagen_links_pages/salon/buenosaires.jpg'
+import mexico from '/assets/imagen_links_pages/salon/mexico.jpg'
 
-import brasil from '../assets/imagen_links_pages/salon/brasil.jpg'
-import buenosaires from '../assets/imagen_links_pages/salon/buenosaires.jpg'
-import mexico from '../assets/imagen_links_pages/salon/mexico.jpg'
+/*Styles*/
 import './styles/grid.css'
-import { Link } from 'react-router-dom'
 
 const SalonPage = () => {
   return (

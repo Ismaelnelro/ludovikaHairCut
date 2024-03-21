@@ -1,11 +1,14 @@
+/*Components*/
 import CarruselImagenComponent from '../components/carrusel/CarruselImagenComponent'
-
-import explorar from '../assets/icons/1.png'
-import encontrar from '../assets/icons/2.png'
-import sumergir from '../assets/icons/3.png'
-
-import './styles/home.css'
 import Cards from '../components/ui/card/Cards'
+
+/*Imagenes*/ 
+import explorar from '/assets/icons/1.png'
+import encontrar from '/assets/icons/2.png'
+import sumergir from '/assets/icons/3.png'
+
+/*Styles*/ 
+import './styles/home.css'
 
 
 const tarjetas = [

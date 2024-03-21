@@ -1,13 +1,14 @@
-
+import { useEffect, useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 
-/*Images*/
-import logo from '../../assets/logo.png'
-
-/*Estilos*/
-import './headercomponent.css'
+/*Componentes*/ 
 import ReservasModal from '../ui/reservas/ReservasModal'
-import { useEffect, useState } from 'react'
+
+/*Images*/
+import logo from '/assets/logo.png'
+
+/*Styles*/ 
+import './headercomponent.css'
 
 const HeaderComponent = () => {
 

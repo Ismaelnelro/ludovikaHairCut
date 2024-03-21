@@ -1,9 +1,11 @@
-import HeaderComponent from '../../components/header/HeaderComponent';
-import FooterComponent from '../../components/footer/FooterComponent';
 import { Outlet } from 'react-router';
+
+/*Componentes*/ 
+import FooterComponent from '../../components/footer/FooterComponent';
+import HeaderComponent from '../../components/header/HeaderComponent';
 import CarruselImagenComponent from '../../components/carrusel/CarruselImagenComponent';
 
-
+/*Styles*/ 
 import './mainlayout.css';
 
 const MainLayout = () => {

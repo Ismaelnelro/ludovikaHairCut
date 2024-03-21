@@ -1,3 +1,5 @@
+
+/*Styles*/ 
 import './footercomponent.css';
 
 const FooterComponent = () => {
